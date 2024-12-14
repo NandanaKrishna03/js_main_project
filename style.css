@@ -1,0 +1,32 @@
+.carousel-control-next-icon{
+    align-items: center;
+}
+#main-cards{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.product{
+    margin-left: 110px;
+}
+.hide {
+    display: none;
+}
+
+.card{
+    flex: 1 1 24%; /* Adjust to 24% for four items per row */
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+}
+#product_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0; /* Remove spacing between items */
+    justify-content: flex-start;
+}
+.cards{
+    border: 2px solid red;
+}
+.elements{
+    font-weight: bolder;
+}
